@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="保留所有權利"
+[[mods]]
+modId="quiltmod"
+
+version="${file.jarVersion}"
+displayName="棉被服務端基礎指令擴充模組"
+logoFile="quilt.png"
+credits="棉被家族"
+authors="棉被"
+displayURL="https://www.quilt.idv.tw/"
+
+description='''
+用於 Forge 服務端擴充基礎指令
+/tpa /home /back /freecam 等 ...
+'''
+
+[[dependencies.quiltmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="SERVER"
+
+[[dependencies.quiltmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="SERVER"
